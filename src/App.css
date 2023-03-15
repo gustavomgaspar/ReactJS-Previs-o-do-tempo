@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Bakbak+One&display=swap');
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'Bakbak One', cursive;
+}
+.App, .searchWraper, .result{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.App{
+  margin-top: 10vh;
+}
+.searchWraper{
+  width: 100%;
+}
+.search{
+  background-color: lightblue;
+  padding:20px;
+  min-width: 400px;
+  width: 40%;
+  border-radius: 10px;
+}
+
+input[name=SearchInput]{
+  width: 70%;
+  padding: 0.5em;
+  font-size: 1em;
+  border: solid gray 1px;
+  border-radius: 5px;
+}
+input[type="submit"]{
+  width:30%;
+  padding: 0.5em;
+  font-size: 1em;
+  border: solid gray 1px;
+  border-radius: 5px;
+}
+.result{
+  margin-top: 3em; 
+}
